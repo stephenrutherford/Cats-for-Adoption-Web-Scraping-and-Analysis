@@ -1,0 +1,4 @@
+venv/
+Screenshots/
+.ipynb_checkpoints/
+*.exe
