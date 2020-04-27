@@ -13,14 +13,6 @@ con = psycopg2.connect(
     user = "username",
     password = "password")
 
-# url = "https://www.donedeal.ie/dogs?start=0"
-# url_inner = "https://www.donedeal.ie/dogs-for-sale/cocker-spaniel-male/24404040?campaign=3"
-
-# url = "https://www.adoptapet.com/pet-search?clan_id=2&geo_range=50&location=93611&page=1"
-# url_alt_inner ="https://www.adoptapet.com/pet/24834470-clovis-california-cat"
-# url_alt_inner2 ="https://www.adoptapet.com/pet/27979908-fresno-california-cat"
-
-
 def scrape_page(url):
     driver = webdriver.Chrome()
     driver.get(url)
